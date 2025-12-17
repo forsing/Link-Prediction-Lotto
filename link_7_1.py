@@ -12,7 +12,7 @@ from itertools import combinations
 import random
 
 # ----------------- LOAD CSV FILE -----------------
-file_path = "/Users/milan/Desktop/GHQ/data/loto7_4530_k99.csv"
+file_path = "/data/loto7_4530_k99.csv"
 df = pd.read_csv(file_path, header=None)
 df.columns = ['n1','n2','n3','n4','n5','n6','n7']
 
@@ -62,7 +62,7 @@ predicted_grana = sorted(sample_combs[idx_max])
 
 print("Predicted next grana (7 nodes):", predicted_grana)
 """
-Predicted next grana (7 nodes): [4, 9, 24, 26, 34, 35, 38]
+Predicted next grana (7 nodes): [4, 9, x, x, x, 35, 38]
 
-Predicted next grana (7 nodes): [1, 3, 9, 13, 20, 28, 33]
+Predicted next grana (7 nodes): [1, 3, x, x, x, 28, 33]
 """
