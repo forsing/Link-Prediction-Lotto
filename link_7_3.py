@@ -25,7 +25,7 @@ from itertools import combinations
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
 # ----------------- LOAD CSV FILE -----------------
-file_path = "/Users/milan/Desktop/GHQ/data/loto7_4530_k99.csv"
+file_path = "/data/loto7_4530_k99.csv"
 df = pd.read_csv(file_path, header=None)
 df.columns = ['n1','n2','n3','n4','n5','n6','n7']
 
@@ -85,5 +85,5 @@ with ThreadPoolExecutor() as executor:
             predicted_grana = grana
 
 print("Predicted next grana (7 nodes):", predicted_grana)
-# Predicted next grana (7 nodes): [18, 29, 34, 36, 37, 38, 39]
+# Predicted next grana (7 nodes): [18, 29, x, y, z, 38, 39]
 
