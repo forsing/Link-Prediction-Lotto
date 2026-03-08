@@ -1,6 +1,14 @@
 # LOTO 7/39 - streaming + paralelizovana predikcija sledeće grane
 
+
 # RandomForestRegressor
+
+
+
+# https://graphsinspace.net
+# https://tigraphs.pmf.uns.ac.rs
+
+
 
 """
 Još brža verziju sa većom paralelizacijom 
