@@ -1,6 +1,14 @@
 # LOTO 7/39 - optimizovana batch predikcija sledeće grane sa one-hot encoding
 
+
 # RandomForestRegressor
+
+
+
+# https://graphsinspace.net
+# https://tigraphs.pmf.uns.ac.rs
+
+
 
 """
 Model koristi one-hot encoding ili embedding 
