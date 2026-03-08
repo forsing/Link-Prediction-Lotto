@@ -2,6 +2,13 @@
 
 # RandomForestRegressor
 
+
+
+# https://graphsinspace.net
+# https://tigraphs.pmf.uns.ac.rs
+
+
+
 # paralelizovanu verziju koja koristi ThreadPoolExecutor 
 # da obrađuje batch-eve istovremeno po više CPU jezgara 
 # i ubrza predikciju sledeće grane.
