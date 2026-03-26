@@ -38,7 +38,7 @@ SEED = 39
 np.random.seed(SEED)
 random.seed(SEED)
 
-file_path = "/Users/4c/Desktop/GHQ/data/loto7_4586_k24.csv"
+file_path = "/data/loto7_4586_k24.csv"
 df = pd.read_csv(file_path, header=None)
 df.columns = ['n1','n2','n3','n4','n5','n6','n7']
 
@@ -127,7 +127,6 @@ with ThreadPoolExecutor(max_workers=max_workers) as executor:
                 pass
 
 print("Predicted next grana (7 nodes):", predicted_grana)
-# Predicted next grana (7 nodes): [18, 29, x, y, z, 38, 39]
 
 
 
