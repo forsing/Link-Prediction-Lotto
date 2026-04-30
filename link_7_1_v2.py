@@ -21,7 +21,7 @@ SEED = 39
 random.seed(SEED)
 np.random.seed(SEED)
 
-file_path = "/Users/4c/Desktop/GHQ/data/loto7_4586_k24.csv"
+file_path = "/data/loto7_4586_k24.csv"
 df = pd.read_csv(file_path, header=None)
 df.columns = ['n1','n2','n3','n4','n5','n6','n7']
 
